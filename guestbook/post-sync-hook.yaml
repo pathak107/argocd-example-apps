@@ -21,4 +21,4 @@ spec:
           - "'Content-Type: application/json'"
           - "http://localhost:12000/clover-cd-event"
       restartPolicy: Never
-  backoffLimit: 2
+  backoffLimit: 20
