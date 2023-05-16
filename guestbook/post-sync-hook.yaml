@@ -19,6 +19,6 @@ spec:
           - "payload={\"message\":\"start cd pipeline\"}"
           - "-H"
           - "'Content-Type: application/json'"
-          - "http://localhost:12000/clover-cd-event"
+          - "http://webhook-eventsource-svc.argo-events:12000/clover-cd-event"
       restartPolicy: Never
-  backoffLimit: 20
+  backoffLimit: 2
